@@ -14,6 +14,7 @@
 		30F92CE01C4365FA00C4D54E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F92CDE1C4365FA00C4D54E /* LaunchScreen.storyboard */; };
 		30F92CEB1C4365FA00C4D54E /* CodeOfAutoLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F92CEA1C4365FA00C4D54E /* CodeOfAutoLayoutTests.swift */; };
 		30F92CF61C4365FA00C4D54E /* CodeOfAutoLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F92CF51C4365FA00C4D54E /* CodeOfAutoLayoutUITests.swift */; };
+		30F92D041C439FA600C4D54E /* VFLAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F92D031C439FA600C4D54E /* VFLAutoLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		30F92CF11C4365FA00C4D54E /* CodeOfAutoLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeOfAutoLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F92CF51C4365FA00C4D54E /* CodeOfAutoLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOfAutoLayoutUITests.swift; sourceTree = "<group>"; };
 		30F92CF71C4365FA00C4D54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F92D031C439FA600C4D54E /* VFLAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VFLAutoLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				30F92CD51C4365FA00C4D54E /* AppDelegate.swift */,
 				30F92CD71C4365FA00C4D54E /* CodeOfAutoLayoutViewController.swift */,
+				30F92D031C439FA600C4D54E /* VFLAutoLayoutViewController.swift */,
 				30F92CD91C4365FA00C4D54E /* Main.storyboard */,
 				30F92CDC1C4365FA00C4D54E /* Assets.xcassets */,
 				30F92CDE1C4365FA00C4D54E /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F92CD81C4365FA00C4D54E /* CodeOfAutoLayoutViewController.swift in Sources */,
+				30F92D041C439FA600C4D54E /* VFLAutoLayoutViewController.swift in Sources */,
 				30F92CD61C4365FA00C4D54E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
